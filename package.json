@@ -9,7 +9,9 @@
     "dev": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o dist",
     "build": "rollup -c",
-    "prepublishOnly": "npm version patch && yarn build"
+    "prepublishOnly": "npm version patch && yarn build",
+    "predeploy": "build-storybook -o doc",
+    "deploy": "gh-pages -d doc"
   },
   "keywords": [
     "stroybook",
