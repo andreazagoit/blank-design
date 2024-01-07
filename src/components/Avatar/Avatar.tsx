@@ -16,7 +16,7 @@ const BaseAvatar = styled.div<IAvatar>`
   border: 2px solid black;
 `;
 
-const Avatar = (props) => <BaseAvatar {...props} children={"AB"} />;
+const Avatar = (props: any) => <BaseAvatar {...props} children={"AB"} />;
 
 Avatar.defaultProps = {};
 
