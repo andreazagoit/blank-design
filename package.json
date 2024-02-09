@@ -1,6 +1,6 @@
 {
   "name": "blank-design",
-  "version": "0.0.502",
+  "version": "0.0.503",
   "description": "Stroybook and TypeScript components template library",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
